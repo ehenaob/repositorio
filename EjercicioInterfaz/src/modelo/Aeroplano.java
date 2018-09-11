@@ -34,7 +34,7 @@ public class Aeroplano extends Vehiculo implements Volador
 	{
 		String respuesta = " ";
 		
-		respuesta = "\nEste aeroplano para despegar: " + this.comoDespega;
+		respuesta = "\nEste aeroplano para despegar: " + this.comoAterriza;
 		
 		return respuesta;
 	}
